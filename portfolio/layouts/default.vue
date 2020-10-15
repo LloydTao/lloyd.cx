@@ -1,6 +1,8 @@
 <template>
   <div>
+    <NavbarLite />
     <Nuxt />
+    <FooterLite />
   </div>
 </template>
 
