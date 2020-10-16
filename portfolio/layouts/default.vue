@@ -1,10 +1,33 @@
 <template>
   <div>
-    <NavbarLite />
     <Nuxt />
-    <FooterLite />
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    titleTemplate: '%s - lloyd.cx',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Meta description' },
+    ],
+    link: [
+      { rel: 'favicon', href: '/assets/img/favicons/favicon.ico' },
+      { rel: 'stylesheet', href: '/assets/css/styles.css' },
+      {
+        rel: 'stylesheet',
+        href: '/assets/css/font%20awesome-free-5.11.2-all.css',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Raleway',
+      },
+    ],
+  },
+}
+</script>
 
 <style>
 html {

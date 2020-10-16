@@ -1,3 +1,19 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+html {
+    background: linear-gradient(to bottom, #202020, #111119) fixed;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    color: #eee;
+    background: transparent;
+}
+
+h1 {
+    font-size:64px;
+    font-weight: 400;
+}
